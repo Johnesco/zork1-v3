@@ -1,0 +1,28 @@
+{
+  "game": "zork1-v3",
+  "timestamp": "2026-03-26T08:26:39+00:00",
+  "binary_hash": "9ee74493",
+  "duration_seconds": 0.2,
+  "layers": {
+    "plotex": {
+      "status": "skip",
+      "detail": "not configured"
+    },
+    "scenarios": {
+      "status": "fail",
+      "total": 2,
+      "passed": 0,
+      "failed": 2,
+      "skipped": 0,
+      "wins": 0,
+      "win_scenarios": [],
+      "assertions": {
+        "total": 0,
+        "passed": 0,
+        "failed": 0
+      },
+      "duration": 0.0
+    }
+  },
+  "overall": "fail"
+}

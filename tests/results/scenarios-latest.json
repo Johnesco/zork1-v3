@@ -1,8 +1,8 @@
 {
   "game": "Zork I (v3)",
-  "regtest_file": "zork1-v3\\tests\\zork1-v3.regtest",
+  "regtest_file": "C:\\code\\text-games\\i7\\zork1-v3\\tests\\zork1-v3.regtest",
   "seed": "26",
-  "duration_seconds": 22.2,
+  "duration_seconds": 8.8,
   "total": 2,
   "passed": 2,
   "failed": 0,
@@ -12,16 +12,36 @@
     "full-run"
   ],
   "primary": "full-run",
+  "assertions": {
+    "total": 1,
+    "passed": 1,
+    "failed": 0
+  },
   "scenarios": [
     {
       "name": "startup",
-      "commands": 1,
-      "transcript_lines": 32,
-      "exit_code": 0,
-      "output_file": "zork1-v3\\tests\\scenarios\\startup.transcript.txt",
-      "commands_file": "zork1-v3\\tests\\scenarios\\startup.commands.txt",
-      "seed": "26",
       "status": "pass",
+      "seed": "26",
+      "commands": 1,
+      "transcript_lines": 28,
+      "exit_code": 0,
+      "transcript_file": "C:\\code\\text-games\\i7\\zork1-v3\\tests\\scenarios\\startup.transcript.txt",
+      "commands_file": "C:\\code\\text-games\\i7\\zork1-v3\\tests\\scenarios\\startup.commands.txt",
+      "assertions": {
+        "total": 1,
+        "passed": 1,
+        "failed": 0,
+        "failures": [],
+        "details": [
+          {
+            "check": "/West of House",
+            "command": "look",
+            "cmd_idx": 1,
+            "passed": true,
+            "response": "West of House\nYou are standing in an open field west of a white house, with a boarded front door.\n\nThere is a small mailbox here."
+          }
+        ]
+      },
       "score": "0/350",
       "win": false,
       "won_text": false,
@@ -38,13 +58,20 @@
     },
     {
       "name": "full-run",
-      "commands": 437,
-      "transcript_lines": 2824,
-      "exit_code": 0,
-      "output_file": "zork1-v3\\tests\\scenarios\\full-run.transcript.txt",
-      "commands_file": "zork1-v3\\tests\\scenarios\\full-run.commands.txt",
-      "seed": "26",
       "status": "pass",
+      "seed": "26",
+      "commands": 437,
+      "transcript_lines": 2821,
+      "exit_code": 0,
+      "transcript_file": "C:\\code\\text-games\\i7\\zork1-v3\\tests\\scenarios\\full-run.transcript.txt",
+      "commands_file": "C:\\code\\text-games\\i7\\zork1-v3\\tests\\scenarios\\full-run.commands.txt",
+      "assertions": {
+        "total": 0,
+        "passed": 0,
+        "failed": 0,
+        "failures": [],
+        "details": []
+      },
       "score": "350/350",
       "win": true,
       "won_text": true,
