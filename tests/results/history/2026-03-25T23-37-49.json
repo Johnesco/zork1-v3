@@ -1,0 +1,31 @@
+{
+  "game": "Zork I (v3)",
+  "timestamp": "2026-03-26T04:37:49+00:00",
+  "binary_hash": "9ee74493",
+  "duration_seconds": 39.1,
+  "layers": {
+    "plotex": {
+      "status": "skip",
+      "detail": "not configured"
+    },
+    "regtest": {
+      "status": "pass",
+      "detail": "all assertions passed",
+      "failures": []
+    },
+    "scenarios": {
+      "status": "pass",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "skipped": 0,
+      "wins": 1,
+      "win_scenarios": [
+        "full-run"
+      ],
+      "duration": 22.2,
+      "primary_walkthrough": "full-run"
+    }
+  },
+  "overall": "pass"
+}

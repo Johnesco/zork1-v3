@@ -1,0 +1,32 @@
+
+
+
+
+Zork I - The Great Underground Empire
+An Interactive Fiction by Infocom (translated to Inform 7)
+Release 3 / Serial number 260325 / Inform 7 v10.1.2 / D
+v3: Multimedia
+Translated to Inform 7 by John Escobedo
+Original by Marc Blank, Dave Lebling, Bruce Daniels, and Tim Anderson
+Copyright (c) 1981-1986 Infocom, Inc. ZIL source released under MIT License.
+
+West of House
+You are standing in an open field west of a white house, with a boarded front door.
+
+There is a small mailbox here.
+
+
+> look
+West of House
+You are standing in an open field west of a white house, with a boarded front door.
+
+There is a small mailbox here.
+
+
+> score
+Your score is 0 (total of 350 points), in 2 moves.
+This gives you the rank of Beginner.
+
+
+> quit
+Are you sure you want to quit? 

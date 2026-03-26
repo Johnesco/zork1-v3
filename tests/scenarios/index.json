@@ -1,0 +1,6 @@
+{
+  "scenarios": [
+    { "name": "startup", "title": "West of House", "category": "Smoke Tests" },
+    { "name": "full-run", "title": "Complete Walkthrough (350/350)", "category": "Win Paths", "primary": true }
+  ]
+}
