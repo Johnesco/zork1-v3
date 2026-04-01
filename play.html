@@ -1,7 +1,7 @@
 <!-- Template tokens (substituted by setup_web.py and compile.py):
      Zork I - The Great Underground Empire      — Game title (from story.ni or games.json)
-     zork1-v3.ulx.js — Binary filename, e.g. "game.ulx.js?v=1775085635" or "game.gblorb.js?v=1775085635"
-     lib/parchment/zork1-v3.ulx.js — Full path to binary, e.g. "lib/parchment/game.ulx.js?v=1775085635"
+     zork1-v3.ulx.js — Binary filename, e.g. "game.ulx.js?v=1775085806" or "game.gblorb.js?v=1775085806"
+     lib/parchment/zork1-v3.ulx.js — Full path to binary, e.g. "lib/parchment/game.ulx.js?v=1775085806"
      lib/parchment/   — Parchment library path, e.g. "lib/parchment/" or "../../lib/parchment/"
 -->
 <!DOCTYPE html>
@@ -10,8 +10,8 @@
 <meta charset="utf-8">
 <title>Zork I - The Great Underground Empire</title>
 <meta name="viewport" content="width=device-width, user-scalable=no">
-<link rel="stylesheet" href="lib/parchment/parchment.css?v=1775085635">
-<link rel="stylesheet" href="lib/parchment/main.css?v=1775085635">
+<link rel="stylesheet" href="lib/parchment/parchment.css?v=1775085806">
+<link rel="stylesheet" href="lib/parchment/main.css?v=1775085806">
 
 <style>
 :root {
@@ -112,8 +112,8 @@ div#gameport {
 }
 </style>
 
-<script src="lib/parchment/jquery.min.js?v=1775085635"></script>
-<script src="lib/parchment/ie.js?v=1775085635" nomodule></script>
+<script src="lib/parchment/jquery.min.js?v=1775085806"></script>
+<script src="lib/parchment/ie.js?v=1775085806" nomodule></script>
 <script>
     // story_name is REQUIRED — parchment.js calls .substring() on it to detect
     // the file type (.ulx.js, .gblorb.js, .z3.js). Without it you get:
@@ -126,8 +126,8 @@ div#gameport {
         do_vm_autosave: 1,
     };
 </script>
-<script src="lib/parchment/parchment.js?v=1775085635"></script>
-<script src="lib/parchment/resourcemap.js?v=1775085635"></script>
+<script src="lib/parchment/parchment.js?v=1775085806"></script>
+<script src="lib/parchment/resourcemap.js?v=1775085806"></script>
 <script>
     window.addEventListener('pageshow', function(e) {
         if (e.persisted) { window.location.reload(); }
@@ -156,7 +156,7 @@ div#gameport {
   </div>
 </div>
 
-<script src="lib/parchment/theme-listener.js?v=1775085635"></script>
+<script src="lib/parchment/theme-listener.js?v=1775085806"></script>
 <script>
 ThemeListener.init({
   buildCSS: function(g, sb) {
