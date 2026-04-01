@@ -30,9 +30,9 @@ You are about 10 feet above the ground nestled among some large branches. The ne
 Beside you on the branch is a small bird's nest.
 In the bird's nest is a large egg encrusted with precious jewels, apparently scavenged by a childless songbird. The egg is covered with fine gold inlay, and ornamented in lapis lazuli and mother-of-pearl. Unlike most eggs, this one is hinged and closed with a delicate looking clasp. The egg appears extremely fragile.
 
-You hear in the distance the chirping of a song bird.
-
 >Taken.
+
+You hear in the distance the chirping of a song bird.
 
 [Your score has just gone up by five points.]
 
@@ -134,7 +134,9 @@ Your sword is glowing with a faint blue glow.
 East of Chasm
 You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on continues to the east.
 
-Your sword is no longer glowing.
+There is a suspicious-looking individual, holding a bag, leaning against one wall. He is armed with a vicious-looking stiletto.
+
+Your sword has begun to glow very brightly.
 
 >Dropped.
 
@@ -148,6 +150,8 @@ This is an art gallery. Most of the paintings have been stolen by vandals with e
 
 Fortunately, there is still one chance for you to be a vandal, for on the far wall is a painting of unparalleled beauty.
 
+Your sword is glowing with a faint blue glow.
+
 >Taken.
 
 [Your score has just gone up by four points.]
@@ -156,7 +160,11 @@ Fortunately, there is still one chance for you to be a vandal, for on the far wa
 East of Chasm
 You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on continues to the east.
 
-You can see a rope, a glass bottle (closed) (in which is a quantity of water) and a brown sack (in which is a lunch) here.
+There is a suspicious-looking individual, holding a bag, leaning against one wall. He is armed with a vicious-looking stiletto.
+
+You can also see a rope, a glass bottle (closed) (in which is a quantity of water) and a brown sack (in which is a lunch) here.
+
+Your sword has begun to glow very brightly.
 
 >
 Cellar
@@ -170,7 +178,6 @@ This is a small room with passages to the east and south and a forbidding hole l
 
 A nasty-looking troll, brandishing a bloody axe, blocks all passages out of the room.
 
-The axe sweeps past as you jump aside.
 Your sword has begun to glow very brightly.
 
 >Your sword crashes down, knocking the troll into dreamland.
@@ -314,8 +321,6 @@ You can also see a sword here.
 >Maze
 This is part of a maze of twisty little passages, all alike.
 
-There is a suspicious-looking individual, holding a bag, leaning against one wall. He is armed with a vicious-looking stiletto.
-
 >
 Maze
 This is part of a maze of twisty little passages, all alike.
@@ -458,6 +463,8 @@ On the two ends of the altar are burning candles.
 >Cave
 This is a tiny cave with entrances west and north, and a dark, forbidding staircase leading down.
 
+A gust of wind blows out your candles!
+
 >
 Entrance to Hades
 You are outside a large gateway, on which is inscribed
@@ -491,11 +498,7 @@ The match has gone out.
 Land of the Dead
 You have entered the Land of the Living Dead. Thousands of lost souls can be heard weeping and moaning. In the corner are stacked the remains of dozens of previous adventurers less fortunate than yourself. A passage exits to the north.
 
-Lying in one corner of the room is a beautifully carved crystal skull. It appears to be grinning at you rather nastily.
-
->Taken.
-
-[Your score has just gone up by ten points.]
+>You can't see any such thing.
 
 >
 Entrance to Hades
@@ -598,9 +601,7 @@ Your collection of treasures consists of:
 
 [Your score has just gone up by six points.]
 
->You put the crystal skull into the trophy case.
-
-[Your score has just gone up by ten points.]
+>You can't see any such thing.
 
 >The brass lantern is now on.
 
@@ -674,6 +675,8 @@ This is the south end of a large temple. In front of you is what appears to be a
 >Forest
 This is a forest, with trees in all directions. To the east, there appears to be sunlight. A faint breeze stirs the branches overhead, carrying the earthy scent of decaying leaves and damp moss.
 
+You hear in the distance the chirping of a song bird.
+
 >The brass lantern is now off.
 
 >Dropped.
@@ -687,6 +690,8 @@ This is a dimly lit forest, with large trees all around. Gnarled roots break thr
 >
 Clearing
 You are in a small clearing in a well marked forest path that extends to the east and west.
+
+You hear in the distance the chirping of a song bird.
 
 >
 Canyon View
@@ -738,8 +743,6 @@ This is a forest, with trees in all directions. To the east, there appears to be
 
 You can see a screwdriver and a brass lantern here.
 
-You hear in the distance the chirping of a song bird.
-
 >Taken.
 
 >
@@ -763,7 +766,6 @@ Living Room
 You are in the living room. There is a doorway to the east. To the west is a cyclops-shaped opening in an old wooden door, above which is some strange gothic lettering, a trophy case, and a rug lying beside an open trap door.
 
 Your collection of treasures consists of:
-  a crystal skull
   a torch
   a platinum bar
   a painting
@@ -793,6 +795,8 @@ You are in a dark and damp cellar with a narrow passageway leading north, and a 
 >
 The Troll Room
 This is a small room with passages to the east and south and a forbidding hole leading west. Bloodstains and deep scratches (perhaps made by an axe) mar the walls.
+
+There is a suspicious-looking individual, holding a bag, leaning against one wall. He is armed with a vicious-looking stiletto.
 
 There is a bloody axe here.
 
@@ -903,6 +907,8 @@ A skeleton, probably the remains of a luckless adventurer, lies here.
 
 The deceased adventurer's useless lantern is here.
 
+An old leather bag, bulging with coins, is here.
+
 Beside the skeleton is a rusty knife.
 
 You can also see a skeleton key here.
@@ -936,7 +942,6 @@ Your collection of treasures consists of:
   a pot of gold
   a sceptre
   a gold coffin
-  a crystal skull
   a torch
   a platinum bar
   a painting
@@ -967,23 +972,19 @@ You are facing the north side of a white house. There is no door here, and all t
 Forest Path
 This is a path winding through a dimly lit forest. The path heads north-south here. One particularly large tree with some low branches stands at the edge of the path.
 
-You hear in the distance the chirping of a song bird.
-
 >
 Forest
 This is a forest, with trees in all directions. To the east, there appears to be sunlight. A faint breeze stirs the branches overhead, carrying the earthy scent of decaying leaves and damp moss.
 
 You can see a screwdriver here.
 
->Taken.
-
 You hear in the distance the chirping of a song bird.
+
+>Taken.
 
 >
 Forest Path
 This is a path winding through a dimly lit forest. The path heads north-south here. One particularly large tree with some low branches stands at the edge of the path.
-
-You hear in the distance the chirping of a song bird.
 
 >
 North of House
@@ -1006,7 +1007,6 @@ Your collection of treasures consists of:
   a pot of gold
   a sceptre
   a gold coffin
-  a crystal skull
   a torch
   a platinum bar
   a painting
@@ -1163,8 +1163,6 @@ This is a small room which smells strongly of coal gas. There is a short climb u
 Smelly Room
 This is a small nondescript room. However, from the direction of a small descending staircase a foul odor can be detected. To the south is a narrow tunnel.
 
-There is a suspicious-looking individual, holding a bag, leaning against one wall. He is armed with a vicious-looking stiletto.
-
 >
 Shaft Room
 This is a large room, in the middle of which is a small shaft descending through the floor into darkness below. To the west and the north are exits from this room. Constructed over the top of the shaft is a metal framework to which a heavy iron chain is attached.
@@ -1207,13 +1205,13 @@ This is a very small room. In the corner is a rickety wooden ladder, leading dow
 Ladder Bottom
 This is a rather wide room. On one side is the bottom of a narrow wooden ladder. To the west and the south are passages leaving the room.
 
-The lamp appears a bit dimmer.
-
 >
 Timber Room
 This is a long and narrow passage, which is cluttered with broken timbers. A wide passage comes from the east and turns at the west end of the room into a very narrow passageway. From the west comes a strong draft.
 
 You can see a broken timber here.
+
+The lamp appears a bit dimmer.
 
 >Dropped.
 
@@ -1356,7 +1354,6 @@ Your collection of treasures consists of:
   a pot of gold
   a sceptre
   a gold coffin
-  a crystal skull
   a platinum bar
   a painting
   a jewel-encrusted egg
@@ -1380,7 +1377,7 @@ Your collection of treasures consists of:
 
 >The brass lantern is now on.
 
->Have your eyes checked.
+>Look around.
 
 >
 Cellar
@@ -1584,7 +1581,6 @@ Your collection of treasures consists of:
   a pot of gold
   a sceptre
   a gold coffin
-  a crystal skull
   a platinum bar
   a painting
   a jewel-encrusted egg
@@ -1638,11 +1634,15 @@ A skeleton, probably the remains of a luckless adventurer, lies here.
 
 The deceased adventurer's useless lantern is here.
 
+An old leather bag, bulging with coins, is here.
+
 Beside the skeleton is a rusty knife.
 
 You can also see a skeleton key here.
 
->You can't see any such thing.
+>Taken.
+
+[Your score has just gone up by ten points.]
 
 >
 Maze
@@ -1669,6 +1669,8 @@ This is a large room, whose east wall is solid granite. A number of discarded ba
 
 There is a suspicious-looking individual, holding a bag, leaning against one wall. He is armed with a vicious-looking stiletto.
 
+There is a silver chalice, intricately engraved, here.
+
 The lamp is definitely dimmer now.
 
 [Your score has just gone up by twenty-five points.]
@@ -1686,20 +1688,23 @@ This is a large room, whose east wall is solid granite. A number of discarded ba
 
 There is a suspicious-looking individual, holding a bag, leaning against one wall. He is armed with a vicious-looking stiletto.
 
->Your stroke lands, but it was only the flat of the blade.
->Your stroke lands, but it was only the flat of the blade.
+There is a silver chalice, intricately engraved, here.
+
 >A quick stroke, but the thief is on guard.
->The blow lands, making a shallow gash in the thief's arm!
->You charge, but the thief jumps nimbly aside.
+>A good slash, but it misses the thief by a mile.
+>A quick stroke, but the thief is on guard.
+>Your bloody axe pinks the thief on the wrist, but it's not serious.
+>Your stroke lands, but it was only the flat of the blade.
+>Your bloody axe pinks the thief on the wrist, but it's not serious.
 >Your stroke lands, but it was only the flat of the blade.
 >The thief takes a fatal blow and slumps to the floor dead.
 Almost as soon as the thief breathes his last breath, a cloud of sinister black fog envelops him, and when the fog lifts, the carcass has disappeared.
 
 
 As the thief dies, the power of his magic decreases, and his treasures reappear:
+  A crystal skull
   A crystal trident
   A jade figurine
-  A leather bag of coins
   A jewel-encrusted egg, with a golden clockwork canary
   A stiletto
   A zorkmid
@@ -1711,8 +1716,6 @@ As the thief dies, the power of his magic decreases, and his treasures reappear:
   A granite wall
 
 The chalice is now safe to take.
-
->You can't see any such thing.
 
 >You can't see any such thing.
 
@@ -1759,14 +1762,15 @@ Your collection of treasures consists of:
   a pot of gold
   a sceptre
   a gold coffin
-  a crystal skull
   a platinum bar
   a painting
   an ancient map
 
 >The brass lantern is now off.
 
->You can't see any such thing.
+>You put the leather bag of coins into the trophy case.
+
+[Your score has just gone up by five points.]
 
 >You put the chalice into the trophy case.
 
@@ -1792,6 +1796,8 @@ This is a path winding through a dimly lit forest. The path heads north-south he
 
 >The canary chirps, slightly off-key, an aria from a forgotten opera. From out of the greenery flies a lovely songbird. It perches on a limb just over your head and opens its beak to sing. As it does so a beautiful brass bauble drops from its mouth, bounces off the top of your head, and lands glimmering in the grass. As the canary winds down, the songbird flies away.
 
+You hear in the distance the chirping of a song bird.
+
 >Taken.
 
 [Your score has just gone up by one point.]
@@ -1814,6 +1820,7 @@ You are in the living room. There is a doorway to the east. To the west is a cyc
 
 Your collection of treasures consists of:
   a chalice
+  a leather bag of coins
   a beautiful jeweled scarab
   a large emerald
   a torch
@@ -1823,7 +1830,6 @@ Your collection of treasures consists of:
   a pot of gold
   a sceptre
   a gold coffin
-  a crystal skull
   a platinum bar
   a painting
   an ancient map
@@ -1848,6 +1854,7 @@ Your collection of treasures consists of:
   a golden clockwork canary
   a jewel-encrusted egg
   a chalice
+  a leather bag of coins
   a beautiful jeweled scarab
   a large emerald
   a torch
@@ -1857,7 +1864,6 @@ Your collection of treasures consists of:
   a pot of gold
   a sceptre
   a gold coffin
-  a crystal skull
   a platinum bar
   a painting
   an ancient map
