@@ -4,7 +4,7 @@
 
 Zork I - The Great Underground Empire
 An Interactive Fiction by Infocom (translated to Inform 7)
-Release 3 / Serial number 260401 / Inform 7 v10.1.2 / D
+Release 3 / Serial number 260501 / Inform 7 v10.1.2 / D
 v3: Multimedia
 Translated to Inform 7 by John Escobedo
 Original by Marc Blank, Dave Lebling, Bruce Daniels, and Tim Anderson
@@ -115,7 +115,11 @@ Your collection of treasures consists of:
   a jewel-encrusted egg
   an ancient map
 
+Your sword is glowing with a faint blue glow.
+
 >With a great effort, the rug is moved to one side of the room, revealing the dusty cover of a closed trap door.
+
+Your sword is no longer glowing.
 
 >The door reluctantly opens to reveal a rickety staircase descending into darkness.
 
@@ -168,15 +172,17 @@ This is a small room with passages to the east and south and a forbidding hole l
 
 A nasty-looking troll, brandishing a bloody axe, blocks all passages out of the room.
 
+The axe sweeps past as you jump aside.
 Your sword has begun to glow very brightly.
 
->The troll is struck on the arm; blood begins to trickle down.
->The troll is battered into unconsciousness.
+>Your sword crashes down, knocking the troll into dreamland.
 >The unconscious troll cannot defend himself: He dies.
 
 Almost as soon as the troll breathes his last breath, a cloud of sinister black fog envelops him, and when the fog lifts, the carcass has disappeared.
 
 Your sword is no longer glowing.
+
+>You can't see any such thing.
 
 >You can't see any such thing.
 
@@ -343,13 +349,13 @@ This is part of a maze of twisty little passages, all alike.
 Maze
 This is part of a maze of twisty little passages, all alike.
 
+There is a suspicious-looking individual, holding a bag, leaning against one wall. He is armed with a vicious-looking stiletto.
+
 >
 Cyclops Room
 This room has an exit on the northwest, and a staircase leading up.
 
 A cyclops, who looks prepared to eat horses (much less mere adventurers), blocks the staircase. From his state of health, and the bloodstains on the walls, you gather that he is not very friendly, though he likes people.
-
-There is a suspicious-looking individual, holding a bag, leaning against one wall. He is armed with a vicious-looking stiletto.
 
 >The cyclops, hearing the name of his father's deadly nemesis, flees the room by knocking down the wall on the east of the room.
 
@@ -602,7 +608,7 @@ Your collection of treasures consists of:
 
 >The brass lantern is now on.
 
->Too late for that.
+>Look around.
 
 >
 Cellar
@@ -674,9 +680,9 @@ This is a forest, with trees in all directions. To the east, there appears to be
 
 >The brass lantern is now off.
 
->Dropped.
-
 You hear in the distance the chirping of a song bird.
+
+>Dropped.
 
 >Dropped.
 
@@ -820,9 +826,7 @@ There is a path along the stream to the east or west, a steep pathway climbing s
 >Reservoir
 You are on what used to be a large lake, but which is now a large mud pile. There are "shores" to the north and south.
 
-There is a suspicious-looking individual, holding a bag, leaning against one wall. He is armed with a vicious-looking stiletto.
-
-You can also see a trunk of jewels here.
+You can see a trunk of jewels here.
 
 >
 Reservoir North
@@ -838,7 +842,11 @@ There is a small pump here.
 Atlantis Room
 This is an ancient room, long under water. There is an exit to the south and a staircase leading up.
 
->You can't see any such thing.
+On the shore lies Poseidon's own crystal trident.
+
+>Taken.
+
+[Your score has just gone up by four points.]
 
 >
 Reservoir North
@@ -913,8 +921,6 @@ You can also see a skeleton key here.
 Maze
 This is part of a maze of twisty little passages, all alike.
 
-There is a suspicious-looking individual, holding a bag, leaning against one wall. He is armed with a vicious-looking stiletto.
-
 >
 Maze
 This is part of a maze of twisty little passages, all alike.
@@ -953,7 +959,9 @@ Your collection of treasures consists of:
 
 [Your score has just gone up by five points.]
 
->You can't see any such thing.
+>You put the crystal trident into the trophy case.
+
+[Your score has just gone up by eleven points.]
 
 >
 Kitchen
@@ -979,6 +987,8 @@ You can see a screwdriver here.
 
 >Taken.
 
+You hear in the distance the chirping of a song bird.
+
 >
 Forest Path
 This is a path winding through a dimly lit forest. The path heads north-south here. One particularly large tree with some low branches stands at the edge of the path.
@@ -1000,6 +1010,7 @@ Living Room
 You are in the living room. There is a doorway to the east. To the west is a cyclops-shaped opening in an old wooden door, above which is some strange gothic lettering, a trophy case, and a rug lying beside an open trap door.
 
 Your collection of treasures consists of:
+  a crystal trident
   a trunk of jewels
   a pot of gold
   a sceptre
@@ -1022,8 +1033,6 @@ Your collection of treasures consists of:
 >
 Cellar
 You are in a dark and damp cellar with a narrow passageway leading north, and a crawlway to the south. On the west is the bottom of a steep metal ramp which is unclimbable.
-
-There is a suspicious-looking individual, holding a bag, leaning against one wall. He is armed with a vicious-looking stiletto.
 
 >
 The Troll Room
@@ -1052,6 +1061,8 @@ You are in a large square room with tall ceilings. On the south wall is an enorm
 
 Mirror Room
 You are in a large square room with tall ceilings. On the south wall is an enormous mirror which fills the entire wall. There are exits on the other three sides of the room.
+
+There is a suspicious-looking individual, holding a bag, leaning against one wall. He is armed with a vicious-looking stiletto.
 
 >
 Cold Passage
@@ -1097,7 +1108,11 @@ This is a small nondescript room. However, from the direction of a small descend
 Gas Room
 This is a small room which smells strongly of coal gas. There is a short climb up some stairs and a narrow tunnel leading east.
 
->You can't see any such thing.
+You can see a sapphire-encrusted bracelet here.
+
+>Taken.
+
+[Your score has just gone up by five points.]
 
 >
 Coal Mine
@@ -1138,8 +1153,6 @@ This is a rather wide room. On one side is the bottom of a narrow wooden ladder.
 >
 Ladder Top
 This is a very small room. In the corner is a rickety wooden ladder, leading downward. It might be safe to descend. There is also a staircase leading upward.
-
-There is a suspicious-looking individual, holding a bag, leaning against one wall. He is armed with a vicious-looking stiletto.
 
 >
 Coal Mine
@@ -1199,11 +1212,11 @@ This is a nondescript part of a coal mine.
 Coal Mine
 This is a nondescript part of a coal mine.
 
+The lamp appears a bit dimmer.
+
 >
 Ladder Top
 This is a very small room. In the corner is a rickety wooden ladder, leading downward. It might be safe to descend. There is also a staircase leading upward.
-
-The lamp appears a bit dimmer.
 
 >
 Ladder Bottom
@@ -1219,7 +1232,7 @@ You can see a broken timber here.
 
 >Dropped.
 
->You can't see any such thing.
+>Dropped.
 
 >Dropped.
 
@@ -1274,13 +1287,13 @@ It is now pitch dark in here!
 >Timber Room
 This is a long and narrow passage, which is cluttered with broken timbers. A wide passage comes from the east and turns at the west end of the room into a very narrow passageway. From the west comes a strong draft.
 
-You can see a hand-held air pump, a jade figurine, a brass lantern (providing light) and a broken timber here.
+You can see a hand-held air pump, a sapphire-encrusted bracelet, a jade figurine, a brass lantern (providing light) and a broken timber here.
 
 >Taken.
 
 >Taken.
 
->You can't see any such thing.
+>Taken.
 
 >Taken.
 
@@ -1352,6 +1365,7 @@ Living Room
 You are in the living room. There is a doorway to the east. To the west is a cyclops-shaped opening in an old wooden door, above which is some strange gothic lettering, a trophy case, and a rug lying beside an open trap door.
 
 Your collection of treasures consists of:
+  a crystal trident
   a trunk of jewels
   a pot of gold
   a sceptre
@@ -1368,7 +1382,9 @@ Your collection of treasures consists of:
 
 [Your score has just gone up by five points.]
 
->You can't see any such thing.
+>You put the sapphire-encrusted bracelet into the trophy case.
+
+[Your score has just gone up by five points.]
 
 >You put the huge diamond into the trophy case.
 
@@ -1380,7 +1396,7 @@ Your collection of treasures consists of:
 
 >The brass lantern is now on.
 
->Look around.
+>Have your eyes checked.
 
 >
 Cellar
@@ -1579,7 +1595,9 @@ You are in the living room. There is a doorway to the east. To the west is a cyc
 Your collection of treasures consists of:
   a torch
   a huge diamond
+  a sapphire-encrusted bracelet
   a jade figurine
+  a crystal trident
   a trunk of jewels
   a pot of gold
   a sceptre
@@ -1646,6 +1664,8 @@ You can also see a skeleton key here.
 
 >Taken.
 
+The lamp is definitely dimmer now.
+
 [Your score has just gone up by ten points.]
 
 >
@@ -1659,8 +1679,6 @@ This is part of a maze of twisty little passages, all alike.
 >
 Maze
 This is part of a maze of twisty little passages, all alike.
-
-The lamp is definitely dimmer now.
 
 >
 Cyclops Room
@@ -1692,17 +1710,16 @@ This is a large room, whose east wall is solid granite. A number of discarded ba
 
 There is a suspicious-looking individual, holding a bag, leaning against one wall. He is armed with a vicious-looking stiletto.
 
->Your bloody axe pinks the thief on the wrist, but it's not serious.
->The blow lands, making a shallow gash in the thief's arm!
->The blow lands, making a shallow gash in the thief's arm!
+>A good stroke, but it's too slow; the thief dodges.
 >The thief is struck on the arm; blood begins to trickle down.
->It's curtains for the thief as your bloody axe removes his head.
+>Your bloody axe pinks the thief on the wrist, but it's not serious.
+>The thief is struck on the arm; blood begins to trickle down.
+>The blow lands, making a shallow gash in the thief's arm!
+>The fatal blow strikes the thief square in the heart: He dies.
 Almost as soon as the thief breathes his last breath, a cloud of sinister black fog envelops him, and when the fog lifts, the carcass has disappeared.
 
 
 As the thief dies, the power of his magic decreases, and his treasures reappear:
-  A crystal trident
-  A sapphire-encrusted bracelet
   A jewel-encrusted egg, with a golden clockwork canary
   A stiletto
   A zorkmid
@@ -1714,8 +1731,6 @@ As the thief dies, the power of his magic decreases, and his treasures reappear:
   A granite wall
 
 The chalice is now safe to take.
-
->You can't see any such thing.
 
 >You can't see any such thing.
 
@@ -1761,7 +1776,9 @@ Your collection of treasures consists of:
   a large emerald
   a torch
   a huge diamond
+  a sapphire-encrusted bracelet
   a jade figurine
+  a crystal trident
   a trunk of jewels
   a pot of gold
   a sceptre
@@ -1828,7 +1845,9 @@ Your collection of treasures consists of:
   a large emerald
   a torch
   a huge diamond
+  a sapphire-encrusted bracelet
   a jade figurine
+  a crystal trident
   a trunk of jewels
   a pot of gold
   a sceptre
@@ -1848,6 +1867,9 @@ Your collection of treasures consists of:
 
 >You put the beautiful brass bauble into the trophy case.
 
+
+An almost inaudible voice whispers in your ear, "Look to your treasures for the final secret."
+
 [Your score has just gone up by one point.]
 
 >Living Room
@@ -1863,7 +1885,9 @@ Your collection of treasures consists of:
   a large emerald
   a torch
   a huge diamond
+  a sapphire-encrusted bracelet
   a jade figurine
+  a crystal trident
   a trunk of jewels
   a pot of gold
   a sceptre
@@ -1891,13 +1915,33 @@ You are facing the south side of a white house. There is no door here, and all t
 
 >
 West of House
-You are standing in an open field west of a white house, with a boarded front door.
+You are standing in an open field west of a white house, with a boarded front door. A secret path leads southwest into the forest.
 
 There is a small mailbox here.
 
->You can't go that way.
+>Stone Barrow
+You are standing in front of a massive barrow of stone. In the east face is a huge stone door which is open. You cannot see into the dark of the tomb.
 
->You can't see any such thing.
+>Inside the Barrow
+As you enter the barrow, the door closes inexorably behind you. Around you it is dark, but ahead is an enormous cavern, brightly lit. Through its center runs a wide stream. Spanning the stream is a small wooden footbridge, and beyond a path leads into a dark tunnel. Above the bridge, floating in the air, is a large sign. It reads: All ye who stand before this bridge have completed a great and perilous adventure which has tested your wit and courage. You have mastered the first part of the ZORK trilogy. Those who pass over this bridge must be prepared to undertake an even greater adventure that will severely test your skill and bravery!
 
->
+The ZORK trilogy continues with "ZORK II: The Wizard of Frobozz" and is completed in "ZORK III: The Dungeon Master."
+
+
+
+    *** Congratulations! ***
+
+
+In that game you scored 350 out of a possible 350, in 420 turns, earning you the rank of Master Adventurer.
+
+
+Your score is 350 (total of 350 points), in 420 moves.
+This gives you the rank of Master Adventurer.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+> Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+> 
 <end of input>
