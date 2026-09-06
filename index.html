@@ -2,19 +2,19 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Zork I &mdash; v3: Multimedia &mdash; IF Hub</title>
+<title>Zork I (v3 — Multimedia) &mdash; IF Hub</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="ifhub:title" content="Zork I (v3 — Multimedia)">
 <meta name="ifhub:meta" content="Infocom (translated to Inform 7)">
-<meta name="ifhub:description" content="Sound, color, and atmosphere. Ambient audio across 10 zones, 16 sound effects, CSS mood palettes, and visual effects transform Zork I into an immersive experience.">
+<meta name="ifhub:description" content="Sound, color, and atmosphere. Ambient audio across 10 zones, 16 sound effects, CSS mood palettes.">
 
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 html {
   height: 100%;
-  background: #0a0a0a;
-  color: #d4c5a9;
+  background: var(--page-bg, #0a0a0a);
+  color: var(--page-fg, #d4c5a9);
   font-family: Georgia, "Times New Roman", serif;
 }
 
@@ -38,12 +38,12 @@ body {
 }
 
 .breadcrumb a:hover {
-  color: #e8d090;
+  color: var(--accent, #e8d090);
 }
 
 h1 {
   font-size: 1.8em;
-  color: #e8d8b0;
+  color: var(--heading, #e8d8b0);
   letter-spacing: 1px;
   margin-bottom: 6px;
 }
@@ -68,7 +68,7 @@ p {
 }
 
 a {
-  color: #e8d090;
+  color: var(--accent, #e8d090);
   text-decoration: none;
   border-bottom: 1px solid #5a4a30;
   transition: color 0.15s, border-color 0.15s;
@@ -79,136 +79,94 @@ a:hover {
   border-bottom-color: #aa9966;
 }
 
-ul {
-  margin: 8px 0 16px 20px;
-  color: #b0a080;
-}
-
-li {
-  margin-bottom: 4px;
-}
-
 .btn-row {
   display: flex;
-  gap: 12px;
   flex-wrap: wrap;
+  gap: 10px;
   margin-bottom: 32px;
 }
 
-.btn-row a {
+.btn-play-hub {
   display: inline-block;
-  padding: 10px 28px;
+  padding: 14px 36px;
+  background: var(--accent, #e8d090);
+  color: var(--page-bg, #0a0a0a);
+  border: none;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 1.1em;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  transition: background 0.15s, color 0.15s;
+}
+
+.btn-play-hub:hover {
+  background: #ffe8a0;
+  color: #0a0a0a;
+  border-bottom-color: transparent;
+}
+
+.btn-secondary {
+  display: inline-block;
+  padding: 10px 24px;
   background: #2a2010;
   border: 1px solid #5a4a30;
   border-radius: 4px;
-  color: #e8d090;
+  color: var(--accent, #e8d090);
   font-family: inherit;
-  font-size: 1em;
+  font-size: 0.95em;
   letter-spacing: 0.5px;
   text-decoration: none;
   transition: background 0.15s, color 0.15s, border-color 0.15s;
 }
 
-.btn-row a:hover {
+.btn-secondary:hover {
   background: #3a3018;
   color: #ffe8a0;
   border-color: #aa9966;
 }
 
-.version-nav {
-  display: flex;
-  gap: 12px;
-  flex-wrap: wrap;
-  margin-bottom: 32px;
-}
-
-.version-nav a, .version-nav span {
-  display: inline-block;
-  padding: 6px 16px;
-  border: 1px solid #2a2418;
-  border-radius: 4px;
+code {
+  font-family: "Consolas", "Monaco", monospace;
   font-size: 0.9em;
-  text-decoration: none;
-}
-
-.version-nav a {
-  color: #b0a080;
-  border-bottom: none;
-}
-
-.version-nav a:hover {
-  background: #2a2010;
-  color: #e8d090;
-  border-color: #5a4a30;
-}
-
-.version-nav .current {
-  background: #2a2010;
-  color: #e8d090;
-  border-color: #5a4a30;
-}
-
-footer {
-  margin-top: 60px;
-  padding-top: 20px;
-  border-top: 1px solid #1e1a14;
-  font-size: 0.85em;
-  color: #665a40;
-}
-
-footer a {
-  color: #887755;
-  border-bottom-color: #3a3020;
+  color: #c8b888;
+  background: #1a1510;
+  padding: 1px 5px;
+  border-radius: 3px;
 }
 </style>
+<script>
+// Apply saved IF Hub theme
+(function() {
+  try {
+    var themeId = localStorage.getItem('ifhub-theme');
+    if (!themeId || themeId === 'classic') return;
+    // Load themes.js from hub to get theme data
+    var s = document.createElement('script');
+    s.src = '../../ifhub/themes.js';
+    s.onload = function() {
+      if (typeof initTheme === 'function') initTheme('library');
+    };
+    document.head.appendChild(s);
+  } catch(e) {}
+})();
+</script>
 </head>
 <body>
 
-<nav class="breadcrumb"><a href="/ifhub/">IF Hub</a> &rsaquo; <a href="/zork1/">Zork I</a> &rsaquo; v3 &mdash; Multimedia</nav>
+<nav class="breadcrumb"><a href="../../ifhub/">IF Hub</a> &rsaquo; Zork I (v3 — Multimedia)</nav>
 
-<h1>Zork I &mdash; v3: Multimedia</h1>
-<p class="subtitle">Sound, Color, and Atmosphere</p>
+<h1>Zork I (v3 — Multimedia)</h1>
 
 <div class="btn-row">
-  <a href="play.html">Play (with sound)</a>
-  <a href="/ifhub/app.html?game=zork1-v3">Play in IF Hub</a>
-  <a href="source.html">Source</a>
-  <a href="walkthrough.html">Walkthrough</a>
+  <a class="btn-play-hub" href="../../ifhub/app.html?game=zork1-v3">Play in IF Hub</a>
+  <a class="btn-secondary" href="play.html">Play Standalone</a>
+  <a class="btn-secondary" href="../../ifhub/app.html?game=zork1-v3&view=source">Source</a>
+  <a class="btn-secondary" href="../../ifhub/app.html?game=zork1-v3&view=walkthrough">Walkthrough</a>
 </div>
 
-<p>v3 intentionally diverges from the original, leaning into what Inform 7 and modern web technology do best. Sound and atmospheric CSS visuals transform the text into an immersive experience.</p>
-
-<p>This is where <a href="https://github.com/curiousdannii/parchment">Parchment</a> replaces Quixe as the interpreter &mdash; the <a href="https://github.com/curiousdannii/emglken">Emglken</a> WASM engine enables native Glk sound channels, playing .ogg audio embedded in the .gblorb binary. The entire soundscape is driven from the story source via Glk sound channel commands.</p>
-
-<h2>Multimedia Features</h2>
-
-<ul>
-  <li><strong>Ambient audio</strong> &mdash; zone-based background music across 10 zones (forest, cave, house, water, rapids, loud, hades, mine, machinery, silence) with smooth crossfades between areas</li>
-  <li><strong>Sound effects</strong> &mdash; 16 one-shot audio triggers for key game events: puzzle moments, creature encounters, and atmospheric touches</li>
-  <li><strong>Native Glk sound</strong> &mdash; audio driven from story.ni via Glk sound channels, bundled as a .gblorb and played through Parchment&rsquo;s Emglken WASM engine</li>
-  <li><strong>CSS mood palettes</strong> &mdash; zone-based color theming with smooth Houdini @property transitions: forest greens, cave blues, warm house tones</li>
-  <li><strong>CRT intro</strong> &mdash; green phosphor terminal aesthetic on startup, fading to the game theme after first input</li>
-  <li><strong>Tree effects</strong> &mdash; falling leaves, canopy glow, and wind sway when climbing the tree</li>
-  <li><strong>Egg flash</strong> &mdash; golden explosion with shockwave rings and sparks when placing the egg in the trophy case</li>
-  <li><strong>Sword glow</strong> &mdash; blue screen-edge vignette when the sword detects danger</li>
-  <li><strong>Platform themes</strong> &mdash; in the IF Hub player, toggle between the native multimedia overlay and 10 retro platform styles (MS-DOS, Apple II, Commodore 64, and more)</li>
-  <li>Inherits all <a href="/zork1-v2/">v2 bug fixes</a> and <a href="/zork1-v1/">v1 content</a></li>
-</ul>
-
-<h2>All Versions</h2>
-
-<div class="version-nav">
-  <a href="/zork1-v0/">v0 &mdash; Original ZIL</a>
-  <a href="/zork1-v1/">v1 &mdash; The Port</a>
-  <a href="/zork1-v2/">v2 &mdash; Bug Fixes</a>
-  <span class="current">v3 &mdash; Multimedia</span>
-  <a href="/zork1/">Current</a>
-</div>
-
-<footer>
-<p><em>Zork I: The Great Underground Empire</em> was written by Marc Blank, Dave Lebling, Bruce Daniels, and Tim Anderson, and published by <a href="https://en.wikipedia.org/wiki/Infocom">Infocom</a> (1980). This Inform 7 translation is an unofficial fan project.</p>
-<p>Built with <a href="http://inform7.com/">Inform 7</a>. Source on <a href="https://github.com/Johnesco/zork1-v3">GitHub</a>.</p>
-</footer>
+<p>Sound, color, and atmosphere. Ambient audio across 10 zones, 16 sound effects, CSS mood palettes.</p>
 
 </body>
 </html>
