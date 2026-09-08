@@ -1096,7 +1096,8 @@
 > turn on lamp
 # You get into the magic boat. In the magic boat you can see a tan label.
 > enter boat
-# You push off from the shore.
+# You push off from the shore. Frigid River (in the magic boat) You are on the
+#   Frigid River in the vicinity of the Dam. The river flows quietly here.
 > launch
 
 ## Time passes...
@@ -1240,23 +1241,19 @@
 
 > se
 
-## Treasure Room
-
 # +25 points
+# You hear a scream of anguish as you violate the robber's hideaway. Using
+#   passages unknown to you, he rushes to its defense.
 > u
 # Give egg to thief
 # The thief is taken aback by your unexpected generosity, but accepts the
 #   jewel-encrusted egg and stops to admire its beauty.
 > give egg to thief
-
-## Cyclops Room
-
 > d
 
-## Treasure Room
-
+# You hear a scream of anguish as you violate the robber's hideaway. Using
+#   passages unknown to you, he rushes to its defense.
 > u
-
 # Combat: thief (12 attempts)
 # A good stroke, but it's too slow; the thief dodges.
 > kill thief with axe
@@ -1282,9 +1279,6 @@
 # Pick up the egg
 > take egg
 > take painting
-
-## Cyclops Room
-
 > d
 
 ## Strange Passage
